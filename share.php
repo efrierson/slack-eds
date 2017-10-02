@@ -262,11 +262,8 @@ BODY;
     $url = "https://slack.com/api/chat.postMessage";
     
     $body = array();
-    //$body['token'] = 'xoxb-249713768612-Hr90pRe3grrklFEdiGgAIMtW';
-    $body['token'] = 'xoxp-238588943088-239377916277-249415594787-2b85baf75a2376ba2a87e2917445022c';
-    //$body['token'] = $token;
+    $body['token'] = 'YOUR-OAUTH-TOKEN';
     $body['channel'] = $channelid;
-    //$body['text'] = "Should be attachments...";
     $body['attachments'] = $attachment_json;
     $body = http_build_query($body);
     

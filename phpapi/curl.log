@@ -1,0 +1,22 @@
+* Hostname eds-api.ebscohost.com was found in DNS cache
+*   Trying 140.234.254.186...
+* Connected to eds-api.ebscohost.com (140.234.254.186) port 80 (#0)
+> GET /edsapi/rest/Search?sort=relevance&searchmode=all&view=detailed&includefacets=y&resultsperpage=20&pagenumber=1&highlight=y&expander=&autosuggest=y&relatedcontent=rs%2Cemp&query=%3Ahilary+clinton HTTP/1.1
+Host: eds-api.ebscohost.com
+Accept: */*
+x-authenticationToken: AB1LbKp9gzA3owULs70vxp_BSrCRQVhAiWd7IkN1c3RvbWVySWQiOiJuczE4NzgwNSIsIkdyb3VwSWQiOiJlZHNhcGlkZW1vIn0
+x-sessionToken: 3d0a491f-fb77-4a89-ba4a-70840ec74645.2boyv3JxdKuGcTvBpPzTyrFUbGYpP+8j8wMmeA/mPOg=
+
+< HTTP/1.1 200 OK
+< Cache-Control: private
+< Content-Length: 154440
+< Content-Type: application/xml; charset=utf-8
+< Server: Microsoft-IIS/8.5
+< x-sessionToken: 3d0a491f-fb77-4a89-ba4a-70840ec74645.2boyv3JxdKuGcTvBpPzTyrFUbGYpP+8j8wMmeA/mPOg=
+< x-authenticationToken: AB1LbKp9gzA3owULs70vxp_BSrCRQVhAiWd7IkN1c3RvbWVySWQiOiJuczE4NzgwNSIsIkdyb3VwSWQiOiJlZHNhcGlkZW1vIn0
+< x-msg-correlId: fc9c432e-3b8d-441b-85f2-69a0a866fd2a
+< X-AspNet-Version: 4.0.30319
+< X-Powered-By: ASP.NET
+< Date: Thu, 01 Dec 2016 20:05:52 GMT
+< 
+* Connection #0 to host eds-api.ebscohost.com left intact
